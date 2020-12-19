@@ -12,7 +12,7 @@ Note: Naming was ambiguous in the input data, so the less error-prone `withdraw`
 
 ## Transaction Behaviors
 
-It's not clear if `dispute` transaction types can apply to both `deposit` and `withdrawal` transaction types, but this functionality is supported. The result is the possibility of an overdrawn available account value in some cases. In the event of a chargeback on an overdrawn account, it is possible that an account could be frozen with a negative balance. Further requirements would be needed to handle this case.
+It's not clear if `dispute` transaction types can apply to both `deposit` and `withdraw` transaction types, but this functionality is supported. The result is the possibility of an overdrawn available account value in some cases. In the event of a chargeback on an overdrawn account, it is possible that an account could be frozen with a negative balance. Further requirements would be needed to handle this case.
 
 ## Tests and Failure Modes
 
